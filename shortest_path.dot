@@ -1,0 +1,62 @@
+digraph G {
+graph [splines=true overlap=false]
+"carcass" -> "napalm death" [label="23.81"];
+
+"morbid angel" -> "carcass" [label="23.03"];
+
+"autopsy" -> "morbid angel" [label="17.58"];
+
+"possessed" -> "autopsy" [label="28.13"];
+
+"dark angel" -> "possessed" [label="36.77"];
+
+"death angel" -> "dark angel" [label="33.00"];
+
+"exodus" -> "death angel" [label="15.44"];
+
+"overkill" -> "exodus" [label="2.00"];
+
+"metal church" -> "overkill" [label="21.46"];
+
+"saxon" -> "metal church" [label="28.86"];
+
+"w.a.s.p." -> "saxon" [label="9.40"];
+
+"twisted sister" -> "w.a.s.p." [label="11.71"];
+
+"kiss" -> "twisted sister" [label="19.25"];
+
+"van halen" -> "kiss" [label="9.54"];
+
+"sammy hagar" -> "van halen" [label="15.92"];
+
+"night ranger" -> "sammy hagar" [label="15.92"];
+
+"loverboy" -> "night ranger" [label="2.00"];
+
+"eddie money" -> "loverboy" [label="14.78"];
+
+"don henley" -> "eddie money" [label="22.45"];
+
+"steve winwood" -> "don henley" [label="18.14"];
+
+"billy ocean" -> "steve winwood" [label="10.47"];
+
+"lionel richie" -> "billy ocean" [label="19.56"];
+
+"commodores" -> "lionel richie" [label="19.65"];
+
+"rufus" -> "commodores" [label="8.75"];
+
+"rose royce" -> "rufus" [label="8.66"];
+
+"chic" -> "rose royce" [label="22.99"];
+
+"donna summer" -> "chic" [label="38.78"];
+
+"tina turner" -> "donna summer" [label="32.38"];
+
+"cher" -> "tina turner" [label="29.20"];
+
+"celion dion" -> "cher" [label="13.61"];
+}
