@@ -1,2 +1,7 @@
-ruby shortest.rb 'artist from' 'artist to' 'max hops before giving up'
+bands.like
+    fetch.rb 'artist' 'similiarity' 'number nodes' | generate_dot_input.rb | neato -Tpng > image.png
+
+path
+	ruby shortest.rb 'artist from' 'artist to' 'max hops before giving up'
+
 see http://www.matpalm.com/audioscrobbler/ for the pretty pictures
