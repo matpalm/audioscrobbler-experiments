@@ -1,3 +1,5 @@
 > fetch.rb 'artist' 'similiarity' 'number nodes' | generate_dot_input.rb | neato -Tpng > image.png
 
 see http://www.matpalm.com/audioscrobbler/bands.like.the.bands.i.like/ for the pretty pictures
+
+requires graphviz
