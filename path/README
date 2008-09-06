@@ -1,0 +1,3 @@
+ruby shortest.rb 'artist from' 'artist to' 'max hops before giving up'
+
+see http://www.matpalm.com/audioscrobbler/distance.from.celion.to.napalm/ for the pretty pictures
